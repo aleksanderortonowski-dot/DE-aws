@@ -1,0 +1,10 @@
+# Skopiuj do terraform.tfvars i uzupełnij prawdziwymi wartościami.
+# NIGDY nie commituj terraform.tfvars (zawiera sekrety)!
+
+aws_region         = "eu-west-1"
+project            = "ecommerce"
+env                = "dev"
+db_username        = "ZMIEN_MNIE"
+db_password        = "ZMIEN_MNIE_MIN_8_ZNAKOW"
+vpc_id             = "vpc-XXXXXXXXXXXXXXXXX"
+private_subnet_ids = ["subnet-XXXXXXXXXXXXXXXXX", "subnet-YYYYYYYYYYYYYYYYY"]

@@ -1,0 +1,18 @@
+# Terraform sekrety i lokalny cache — nigdy nie commitować
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# macOS
+.DS_Store
+
+terraform/secrets.tf
+terraform/glue_catalog.tf
